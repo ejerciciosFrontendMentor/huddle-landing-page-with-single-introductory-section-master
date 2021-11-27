@@ -32,7 +32,7 @@ body {
   grid-template-areas: "header" "main" "footer";
   gap: 1.25rem;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   body {
     background-image: url(../images/bg-desktop.svg);
   }
@@ -50,7 +50,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .logo {
     width: 9.375rem;
     height: 3.125rem;
@@ -62,7 +62,7 @@ body {
   font-family: "Poppins", sans-serif;
   grid-area: main;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .main {
     width: 73.75rem;
     margin: 0 auto;
@@ -84,7 +84,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .illustration {
     width: 48.125rem;
     height: 25rem;
@@ -96,7 +96,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .content {
     margin-top: 1.875rem;
     padding-right: 5rem;
@@ -113,7 +113,7 @@ body {
   color: var(--color-white);
   text-align: center;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .content__title {
     margin: 0;
     padding: 0;
@@ -130,7 +130,7 @@ body {
   color: var(--color-white);
   text-align: center;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .content__text {
     margin: 0;
     padding: 0;
@@ -159,7 +159,7 @@ body {
   color: var(--color-white);
   background-color: var(--color-SoftMagenta);
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .btn {
     width: 9.375rem;
     margin-left: 0;
@@ -175,7 +175,7 @@ body {
   flex-wrap: wrap;
   margin-top: 3.75rem;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .footerRedes {
     margin-top: 0;
     grid-column: 1/-1;
